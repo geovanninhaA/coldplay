@@ -1,0 +1,243 @@
+/*DOCUMENTO CSS*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #000;
+	font-family: 'Francois One', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: url(imagens/coldplay.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+}
+figure{
+		display: flex;
+		text-align: center;
+		display: inline-flex;
+		margin-left: 170px;
+		padding-top: 90px;
+}
+
+/************* MENU --------------------------*/
+
+nav{
+	
+	background-color: #fff;
+	height:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul li a{
+	padding:15px 120px;
+	text-decoration: none;
+	background-color: #000;
+	color:#fff;
+	transition:0.4s;
+	font-weight: 700;
+	border-radius: 4px;
+	margin:0 10px;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	background-color:#ffffff;
+	color:#000000;
+}
+/* -----------CORPO---------------------*/
+main{
+	color: #fff;
+	height: 3000px;
+	padding-top: 150px;
+}
+.titulo{
+	margin-left: 200px;
+	font-size: 70px;
+	padding-top: 100px;
+	color: rgba(255, 255, 255, 0.9);	
+	font-weight: 400;
+}
+.coluna1{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-right: 100px;
+}
+#biografia{
+	background-image:url(imagens/fumacaatras.jpg) ;
+	background-repeat: no-repeat;
+	background-position: 0% 10%;
+}
+#biografia .coluna1 figure{
+	height: 808px;
+	width: 800px;
+	margin: 0;
+	padding: 0;	
+}
+.coluna1 p {
+	text-align: justify;
+	padding-left: 50px;
+	font-size: 30px;
+}	
+main figure{
+	margin-left: 1149px;
+	padding: 0%;
+}
+
+/*albuns*/
+#albuns h1{
+	margin-bottom: 250px;
+	margin-top: 250px;
+	font-weight: 400;
+	font-weight: 400;
+	font-size:70px;
+	color: rgba(255, 255, 255, 0.9);	
+	font-weight: 400;
+	text-align: center;
+}
+#albuns .boxalbuns {
+	height: 500px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#albuns .boxalbuns figure {
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	margin: 0 0 0 50px;
+	padding: 0;
+}
+#albuns .boxalbuns figure img {
+	width: 100%;
+}
+#albuns .boxalbuns p {
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 50px;
+	margin: 0 0 0 300px;
+}
+#albuns .boxalbuns figure img {
+	height: 100%;
+}
+#integrantesfoto {
+	height: 300px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#integrantes h1{
+	text-align:center;
+	margin-top: 500px;
+	margin-bottom: 250px;
+	font-weight: 400;
+	font-size:70px;
+	color: rgba(255, 255, 255, 0.9);	
+	font-weight: 400;
+}
+#integrantes figure img{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);	
+}
+#integrantes figure{
+	margin-bottom: 50px;
+	height: 600px;
+}
+#integrantes .boxintegrantesdireito{
+	margin-right: 0%;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+#integrantes .boxintegrantesesquerdo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#integrantes .boxintegrantesesquerdo figure{
+	margin: 0 0 0 0;
+	padding: 0;
+}
+#integrantes .boxintegrantesdireito figure{
+	display: flex;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+#integrantes .boxintegrantesesquerdo p{
+	font-size: 40px;
+	padding-left: 700px;
+	margin: 0 100px 0 0;
+	padding: 0;
+}
+#integrantes  .boxintegrantesdireito p{
+	font-size: 40px;
+	padding-right: 700px;
+	margin: 0 0 0 100px;
+	padding: 0;
+}
+
+/* curiosidades*/
+
+#curiosidades h1{
+	text-align:center;
+	margin-top: 500px;
+	margin-bottom: 200px;
+	font-weight: 400;
+	font-size:70px;
+	color: rgba(255, 255, 255, 0.9);	
+	font-weight: 400;
+}
+#curiosidades p{
+	font-weight: 400;
+ 	font-size: 32px;
+	background-repeat: no-repeat;
+	font-style: normal;
+	line-height: 45px;
+	position: relative;	
+}
+
+#curiosidades .imagemcuriosidades2{
+	background: url(curio2.png);
+	position: absolute;
+	position: absolute;
+	width: 592px;
+	height: 411px;
+	left: 848px;
+	top: 11550px;
+}
+.boxcuriosidades {
+	height: 500px;
+    padding-left: 30px;
+	padding-right: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-bottom: 30px;
+	
+}
+footer{
+	margin-top:600px ;
+	margin-bottom: 250px;
+	padding-bottom: 100px;
+	text-align: center;
+	font-family: 'Fjord';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+}
